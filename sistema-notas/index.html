@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de notas</title>
+</head>
+
+<body>
+
+    <h1>Sistema de Notas</h1>
+
+    <div id="content">
+        <div class="inputs">
+            <div class="subject">
+                <label for="txtMateria">Matéria: </label>
+                <input required type="text" id="txtMateria">
+            </div>
+
+            <div class="notes">
+                <label for="txtNota">Nota: </label>
+                <input type="number" id="txtNota">
+            </div>
+        </div>
+        <button class="btn" onclick="escreveMateria()">Enviar</button>
+    </div>
+
+    <div id="resultados"></div>
+
+</body>
+</html>
